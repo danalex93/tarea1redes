@@ -17,8 +17,8 @@ public class Pool {
 		/* Request one worker */
 		requestWorker.acquire();
 		Worker newWorker = findAvailableWorker();
-		if (newWorker == null){
-			
+		while(newWorker == null){
+			newWorker = findAvailableWorker();
 		}
 		
 		newWorker.working = true;
