@@ -23,7 +23,6 @@ public class Worker implements Runnable{
 	         
 			System.out.println(clientRequest.readLine());
 			
-			serverResponse.writeBytes("HTTP/1.1 200 OK");
 			serverResponse.writeBytes("<html><h1>Heeeere's Johnny!</h1></html>");
 			
 			mTask.close();
