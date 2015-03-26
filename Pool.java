@@ -1,7 +1,6 @@
 import java.net.Socket;
 import java.util.concurrent.Semaphore;
 
-
 public class Pool {
 	Worker[] workers;
 	Semaphore requestWorker = new Semaphore(1);
