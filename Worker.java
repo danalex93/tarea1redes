@@ -11,7 +11,7 @@ import java.util.concurrent.Semaphore;
 
 public class Worker implements Runnable{
 	static boolean logged = false;
-	static Semaphore writeToFile = new Semaphore(1);
+	static Semaphore writeToFile = new Semaphore(1), changeLogStatus = new Semaphore(1);
 	
 	boolean working;
 	Socket mTask;
@@ -114,7 +114,9 @@ public class Worker implements Runnable{
 				String password = var[1].split("=")[1];
 
 				if (user.equals("root") && password.equals("laboratorio1")){
+					changeLogStatus.acquire();
 					logged = true;
+					changeLogStatus.release();
 					serverResponse.writeBytes(
 						"HTTP/1.1 200 OK\n"
 						+"Content-Type: text/html\n"
