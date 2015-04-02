@@ -10,7 +10,7 @@ class Server
 		ServerSocket server_socket = new ServerSocket(8080);
 		PrintWriter writer = new PrintWriter("log.txt");
 		writer.close();
-		Pool pool = new Pool(5);
+		Pool pool = new Pool(10);
 
 		while(true)
 		{

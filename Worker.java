@@ -59,7 +59,7 @@ public class Worker implements Runnable{
 					+"Connection: close\n"
 					+"Server: DeathStar\n"
 					+"\n"
-					+"<html><h1>Heeeere's Johnny!</h1></html>\n"
+					+"<html><head><title>Home | EmpireNetwork</title><style>div, html, body {margin: 0;padding: 0;box-sizing: border-box;font-family: Helvetica;}body {height: 100%;width: 100%;background-color: rgb(0,38,62);background-size: 100% auto;background-position: center center;background-image: url('http://syanezs.cl/assets/backstarwars.jpg');}.header{font-size: 72px;color: white;padding-top: 50px;width: 100%;text-align: center;}.header img{width: 100px;height: 100px;vertical-align: -25px;}.subheader{width: 100%;text-align: center;color: white;font-size: 23px;text-decoration: italic;}</style></head><body>	<div class = 'header'><img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' />EmpireNetwork<img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /></div><div class = 'subheader'><i>The #1 choice in ISP providers all around the galaxy<br><span style = 'font-size: 0.8em'>...And only </span></i></div></body></html>\n"
 				);
 			}
 			else if (request.get("Request").equals("GET /about HTTP/1.1")){
@@ -69,7 +69,7 @@ public class Worker implements Runnable{
 					+"Connection: close\n"
 					+"Server: DeathStar\n"
 					+"\n"
-					+"<html><h1>About the Death Star</h1></html>\n"
+					+"<html> <head> <title>About | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: black; background-size: 100% auto; background-position: center center; background-image: url('http://www.hdwallpapersinn.com/wp-content/uploads/2014/09/tie-fighter-pic.png'); } .header { font-size: 54px; color: white; padding-top: 50px; width: 100%; text-align: center; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; } </style> </head> <body> <div class = 'header'> <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> EmpireNetwork <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> </div> <div class = 'subheader'> <i> Providing security and peace in over 234,876 systems </i> </div> </body> </html>\n"
 				);
 			}
 			else if (request.get("Request").equals("GET /old_home HTTP/1.1")){
@@ -79,7 +79,7 @@ public class Worker implements Runnable{
 					+"Connection: close\n"
 					+"Server: DeathStar\n"
 					+"\n"
-					+"<html><h1>Heeeere's Johnny!</h1></html>\n"
+					+"<html><head><title>Home | EmpireNetwork</title><style>div, html, body {margin: 0;padding: 0;box-sizing: border-box;font-family: Helvetica;}body {height: 100%;width: 100%;background-color: rgb(0,38,62);background-size: 100% auto;background-position: center center;background-image: url('http://syanezs.cl/assets/backstarwars.jpg');}.header{font-size: 72px;color: white;padding-top: 50px;width: 100%;text-align: center;}.header img{width: 100px;height: 100px;vertical-align: -25px;}.subheader{width: 100%;text-align: center;color: white;font-size: 23px;text-decoration: italic;}</style></head><body>	<div class = 'header'><img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' />EmpireNetwork<img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /></div><div class = 'subheader'><i>The #1 choice in ISP providers all around the galaxy<br><span style = 'font-size: 0.8em'>...And only </span></i></div></body></html>\n"
 				);
 			}
 			else if (request.get("Request").equals("GET /secret HTTP/1.1")){
@@ -90,7 +90,7 @@ public class Worker implements Runnable{
 						+"Connection: close\n"
 						+"Server: DeathStar\n"
 						+"\n"
-						+"<html><h1>May the force be with you</h1></html>\n"
+						+"<html> <head> <title>Secret | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: rgb(0,38,62); background-size: 100% auto; background-position: center center; background-image: url('http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2014/07/11-cabbel-lennox.jpg'); } .header { font-size: 46px; color: white; padding-top: 50px; width: 100%; text-align: center; position: absolute; bottom: 95px; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; position: absolute; bottom: 30px; line-height: 30px; }  .subheader a { color: white; } </style> </head> <body> <div class = 'header'> <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> Welcome <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> </div> <div class = 'subheader'> <i> You are an important part of our organization<br> Lord Vader thanks you </i> </div> </body> </html>\n"
 					);
 				}
 				else{
@@ -100,7 +100,7 @@ public class Worker implements Runnable{
 						+"Connection: close\n"
 						+"Server: DeathStar\n"
 						+"\n"
-						+"<html><h1>Pass you shall not!</h1></html>\n"
+						+"<html> <head> <title>Access Denied | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: black; background-size: 100% auto; background-position: center center; background-image: url('http://p1.pichost.me/i/26/1493274.jpg'); } .header { font-size: 46px; color: white; padding-top: 50px; width: 100%; text-align: center; position: absolute; bottom: 95px; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; position: absolute; bottom: 30px; line-height: 30px; }  .subheader a { color: white; } </style> </head> <body> <div class = 'header'> <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> EmpireNetwork <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> </div> <div class = 'subheader'> <i> Access Forbidden </i> </div> </body> </html>\n"
 					);
 				}
 			}
@@ -117,13 +117,14 @@ public class Worker implements Runnable{
 					changeLogStatus.acquire();
 					logged = true;
 					changeLogStatus.release();
+					
 					serverResponse.writeBytes(
 						"HTTP/1.1 200 OK\n"
 						+"Content-Type: text/html\n"
 						+"Connection: close\n"
 						+"Server: DeathStar\n"
 						+"\n"
-						+"<html><h1>Force with you is</h1></html>\n"
+						+"<html> <head> <title>Secret | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: rgb(0,38,62); background-size: 100% auto; background-position: center center; background-image: url('http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2014/07/11-cabbel-lennox.jpg'); } .header { font-size: 46px; color: white; padding-top: 50px; width: 100%; text-align: center; position: absolute; bottom: 95px; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; position: absolute; bottom: 30px; line-height: 30px; }  .subheader a { color: white; } </style> </head> <body> <div class = 'header'> <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> Welcome <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> </div> <div class = 'subheader'> <i> You are an important part of our organization<br> Lord Vader thanks you </i> </div> </body> </html>\n"
 					);
 				}
 				else{
@@ -133,7 +134,7 @@ public class Worker implements Runnable{
 						+"Connection: close\n"
 						+"Server: DeathStar\n"
 						+"\n"
-						+"<html><h1>Pass you shall not!</h1></html>\n"
+						+"<html> <head> <title>Access Denied | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: black; background-size: 100% auto; background-position: center center; background-image: url('http://p1.pichost.me/i/26/1493274.jpg'); } .header { font-size: 46px; color: white; padding-top: 50px; width: 100%; text-align: center; position: absolute; bottom: 95px; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; position: absolute; bottom: 30px; line-height: 30px; }  .subheader a { color: white; } </style> </head> <body> <div class = 'header'> <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> EmpireNetwork <img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' /> </div> <div class = 'subheader'> <i> Access Forbidden </i> </div> </body> </html>\n"
 					);
 				}
 			}
@@ -144,19 +145,7 @@ public class Worker implements Runnable{
 					+"Connection: close\n"
 					+"Server: DeathStar\n"
 					+"\n"
-					+"<html><h1>Login you Must!</h1>"
-					+ "<form action='/secret' method='post'>"
-					+ "<div>"
-					+ "<label for='user'>User</label>"
-					+ "<input type='text' name='user' id='user' required='required'>"
-					+ "</div>"
-					+ "<div>"
-					+ "<label for='password'>Pass</label>"
-					+ "<input type='password' name='pass' id='pass' required='required'>"
-					+ "</div>"
-					+ "<input type='submit' value='Login'>"
-					+ "</form>"
-					+ "</html>\n"
+					+"<html> <head> <title>LogIn | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: rgb(0,38,62); background-size: auto 100%; background-repeat: no-repeat; background-position: center center; background-image: url('http://bensbargains.net/thecheckout/wp-content/uploads/2013/05/Pro-empire-enlist-today-he-needs-you.jpg'); } .header { font-size: 54px; color: white; padding-top: 50px; width: 100%; text-align: center; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; }  .wrapper{ width: 500px; height: 500px; background-color: rgba(255,255,255,0.8); position: absolute; margin-left: -250px; margin-top: -250px; top: 50%; left: 50%; padding: 50px; text-align: center; }  input { width: 100%; margin: 20px auto; border: 0; height: 50px; box-sizing: border-box; padding-right: 10px; padding-left: 10px; } button img { width: 30px; height: 30px; vertical-align: middle; margin-right: 30px; }  button { background-color: rgb(0,38,62); color: white; height: 50px; border: 0; min-width: 100px; padding-right: 20px; padding-left: 20px; font-size: 22px; margin: 20px auto; }   </style> </head> <body> <div class = 'wrapper'> <h1>LogIn</h1> <form method='post' action='/secret'> <input type = 'text' name = 'user' placeholder = 'Username' /> <input type = 'password' name = 'password' placeholder = 'Password' /> <button type='submit'><img src = 'http://store.shadowvexindustries.com/image/cache/data/Stickers/Galactic_Empire-500x500.png' />Log-In</button> </form> </div> </body> </html>\n"
 				);
 			}
 			else{
@@ -166,7 +155,7 @@ public class Worker implements Runnable{
 					+"Connection: close\n"
 					+"Server: DeathStar\n"
 					+"\n"
-					+"<html><h1>These are not the droids you're looking for!</h1></html>\n"
+					+"<html> <head> <title>Not Found | EmpireNetwork</title> <style> div, html, body { margin: 0; padding: 0; box-sizing: border-box; font-family: Helvetica; }  body { height: 100%; width: 100%; background-color: black; background-size: 100% auto; background-position: center center; background-image: url('http://i.ytimg.com/vi/g5VR4wdGeRg/maxresdefault.jpg'); } .header { font-size: 46px; color: rgba(0,0,0,.87); padding-top: 50px; width: 100%; text-align: center; position: absolute; bottom: 95px; }  .header img { width: 50px; height: 50px; vertical-align: middle; }  .subheader { width: 100%; text-align: center; color: white; font-size: 23px; text-decoration: italic; position: absolute; bottom: 30px; line-height: 30px; }  .subheader a { color: white; } </style> </head> <body> <div class = 'header'> These are not the droids you are looking for </div> <div class = 'subheader'> oh wait... those <b><i>WERE</i></b> the droids you are looking for!<br> <a href = 'javascript:window.history.back()'>GO BACK NOW!</a> </div> </body> </html>\n"
 				);
 			}
 			
